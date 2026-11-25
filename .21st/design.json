@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "project": {
+    "name": "praxifold",
+    "productType": "AI practice studio",
+    "stack": [
+      "vite"
+    ]
+  },
+  "sources": {
+    "tokens": [
+      "style.css"
+    ],
+    "components": [
+      "app.js",
+      "lessons.js",
+      "placement.js"
+    ],
+    "assets": [
+      "mark.svg",
+      "art.js"
+    ],
+    "instructions": []
+  },
+  "design": {
+    "colorMode": "light and dark",
+    "colors": {},
+    "typography": {},
+    "spacing": {},
+    "radius": {},
+    "shadows": {},
+    "motion": {},
+    "density": "unknown"
+  },
+  "components": {
+    "installed": [],
+    "preferredPrimitives": [
+      "Native radio groups",
+      "Native disclosure rows",
+      "Shared action links"
+    ],
+    "patterns": []
+  },
+  "constraints": {
+    "must": [
+      "Use full-strength foreground text and a medium or heavier weight for question-critical information."
+    ],
+    "avoid": []
+  },
+  "decisions": [],
+  "evidence": [
+    {
+      "fact": "project.stack:vite",
+      "source": "package.json"
+    }
+  ],
+  "generatedAt": "2026-11-25T04:24:34.277Z"
+}
