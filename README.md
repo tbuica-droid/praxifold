@@ -61,3 +61,7 @@ The plan prioritizes drills for missed or unsure answers, starting with the leas
 ## Expert curriculum research
 
 [From a first AI challenge to independent practice](EXPERTISE-RESEARCH.md) audits the playable beta against academic curricula and institutional guidance. It maps the remaining competencies, specialty projects and evidence needed to assess independent work.
+
+## Public site
+
+[Praxifold on GitHub Pages](https://tbuica-droid.github.io/praxifold/) serves the production build from the root of the `gh-pages` branch. To release a committed update from this checkout, push the source to `main`, then run `bash scripts/publish-pages.sh`. The script checks the source, builds for the project URL and publishes the static assets.
